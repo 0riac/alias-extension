@@ -104,8 +104,7 @@ export const createAliases = (aliases = {}, options = {}) => {
     return resultObj;
 };
 
-export const createAliasesToActiveTab = (aliases = {}, options = {}) => createAliases(aliases, {
+export const createAliasesToTab = (aliases = {}, options = {}) => createAliases(aliases, {
     ...options,
-    tabId: undefined,
-    toActiveTab: true
+    toActiveTab: !options.tabId
 });

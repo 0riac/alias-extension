@@ -1,7 +1,7 @@
 {
   "name": "alias-extension",
   "version": "1.0.0",
-  "description": "",
+  "description": "Execute functions remotely in different contexts of your extension",
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
@@ -13,6 +13,17 @@
     "type": "git",
     "url": "git+https://github.com/0riac/alias-extension.git"
   },
+  "keywords": [
+	"extension",
+	"remote",
+    "function",
+	"execution",
+    "mozilla",
+    "browser",
+    "chrome",
+    "context",
+    "messaging"
+  ],
   "author": {
     "name": "0riac",
     "url": "https://github.com/0riac/"

@@ -1,4 +1,4 @@
-import { createAliases, createAliasesToActiveTab } from './createAliases';
+import { createAliases, createAliasesToTab } from './createAliases';
 import { executeAliases, executeTabAliases } from './executeAliases';
 
-export { createAliases, createAliasesToActiveTab, executeAliases, executeTabAliases };
+export { createAliases, createAliasesToTab, executeAliases, executeTabAliases };
